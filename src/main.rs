@@ -1,4 +1,8 @@
 // TODO: split up this function after learning module system
+fn primitives_test() {
+    println!("1 + 2 = {}", 1u32 + 2);
+}
+
 fn print_test() {
     // standard print macros
     println!("Typical print with line break");
@@ -33,5 +37,6 @@ fn print_test() {
     println!("{num:>width$}");
 }
 fn main() {
-    print_test();
+    primitives_test();
+//    print_test();
 }
